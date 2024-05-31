@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="scrollTop">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav_left">
+            <img src="./imgs/logo.svg" alt="" />
+          </div>
+          <div class="nav_center">
+            <ul>
+              <li id="about">О нас</li>
+              <li id="team">Команда</li>
+              <li id="blog">Блог</li>
+              <li id="product">Продукты</li>
+              <li id="contact">Контакты</li>
+            </ul>
+          </div>
+          <div class="nav_right">
+            <button>Войти</button>
+            <select name="" id="">
+              <option value="">Русский</option>
+              <option value="">English</option>
+              <option value="">Deutsch</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div class="hero_left">
+            <div class="icons">
+              <span onclick="prev()" class="chap">
+                <i class="fa-solid fa-chevron-left left"></i
+              ></span>
+              <span onclick="next()" class="ong"
+                ><i class="fa-solid fa-chevron-right right"></i
+              ></span>
+            </div>
+            <div class="name">
+              <h2>Хедж-фонд</h2>
+            </div>
+            <div class="info">
+              <p>
+                Классический выбор профессиональных <br />
+                инвесторов с заданными умеренными <br />
+                параметрами риска. Основан на <br />
+                инвестировании в бумаги индекса S&P 500 с <br />
+                диверсификацией по 11 секторам экономики.
+              </p>
+            </div>
+            <div class="btn">
+              <button>Подробнее</button>
+            </div>
+            <div class="spans">
+              <span class="spn"> </span>
+              <span class="spn"></span>
+              <span class="spn"></span>
+              <span class="spn"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="s1">
+        <div data-aos="fade-up" class="container">
+          <img src="./imgs/s1_title.svg" alt="" />
+          <div class="s1_left">
+            <div class="left_s1">
+              <img src="./imgs/s1_img.svg" alt="" />
+            </div>
+            <div class="right_s1">
+              <p>
+                Наша Команда успешно осуществляет деятельность на нескольких
+                рынках <br />
+                инвестиций. Богатство выбора инструментов этих рынков позволяет
+                Нам <br />
+                успешно сохранять и преумножать капитал клиентов. <br /><br />
+                Вступить в партнерство с Fonte могут как профессиональные
+                инвестора, так и <br />
+                частные лица, только начинающие открывать для себя новые
+                перспективы. <br />
+                Наша юрисдикция - Международный финансовый центр «Астана»
+                (МФЦА). <br />
+                Комфортные налоговые условия и регуляторные политики
+                обеспечивают <br />
+                необходимые свободы и преимущества для достижения целей
+                инвестиций. <br /><br />
+                В партнерстве с Fonte Capital LTD, инвесторы имеют возможность
+                <br />
+                воспользоваться не только проверенными стратегиями, но и смогут
+                <br />
+                совместно разработать персональные инвестиционные решения.
+              </p>
+              <button><i class="fa-regular fa-file-zipper"></i>Лицензии</button>
+            </div>
+          </div>
+          <img class="line" src="./imgs/line.svg" alt="" />
+        </div>
+      </section>
+      <section class="s2">
+        <div class="container">
+          <img src="./imgs/s2_title.svg" alt="" />
+          <div class="s2_cards">
+            <div data-aos="fade-right" class="s2_card">
+              <i class="fa-regular fa-gem"></i>
+              <div class="s3_info">
+                <h2>Стабильность</h2>
+                <p>
+                  Сохранность капитала клиентов <br />
+                  приоритетнее доходности - каждое <br />
+                  решение взвешено, обдумано и оценено.
+                </p>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="s2_card">
+              <i class="fa-regular fa-gem"></i>
+              <div class="s3_info">
+                <h2>Устойчивость</h2>
+                <p>
+                  Устойчивое развитие — основа нашей бизнес-модели. <br />
+                  Начиная с поиска и оценки предоставившихся <br />
+                  возможностей для бизнеса до последовательного развития <br />
+                  наших проектов и реаллокации капитала в новые <br />
+                  возможности.
+                </p>
+              </div>
+            </div>
+            <div data-aos="fade-right" class="s2_card">
+              <i class="fa-solid fa-briefcase"></i>
+              <div class="s3_info">
+                <h2>Команда</h2>
+                <p>
+                  Команда Fonte Capital LTD – основа успеха. Каждый <br />
+                  сотрудник Компании – это ценный актив в рабочем <br />
+                  процессе фонда. Наша цель – создание такой рабочей <br />
+                  атмосферы и условий, которые позволят максимально <br />
+                  раскрыть потенциал каждого сотрудника для достижения <br />
+                  максимального результата.
+                </p>
+              </div>
+            </div>
+            <div data-aos="fade-left" class="s2_card">
+              <i class="fa-regular fa-handshake"></i>
+              <div class="s3_info">
+                <h2>Репутация</h2>
+                <p>
+                  Ответственность и этика – основа нашей деятельности. <br />
+                  Деятельность в рамках лучших практик (Корпоративный <br />
+                  Кодекс этики и стандарты профессионального поведения) <br />
+                  позволяет предлагать клиентам более качественные <br />
+                  инвестиционные продукты, отвечающие высоким <br />
+                  требованиям и ожиданиям самых требовательных клиентов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="line2" src="./imgs/line2.svg" alt="" />
+      </section>
+      <section class="s3">
+        <div class="container">
+          <img src="./imgs/s3_title.svg" alt="" />
+          <p data-aos="zoom-out-right">
+            Команда Fonte Capital LTD – основа успеха. Каждый сотрудник Компании
+            – это ценный актив в <br />
+            рабочем процессе фонда. Наша цель – создание такой рабочей атмосферы
+            и условий, которые <br />
+            позволят максимально раскрыть потенциал каждого сотрудника для
+            достижения максимального <br />результата.
+          </p>
+          <div class="people">
+            <div data-aos="fade-up" class="p1">
+              <img src="./imgs/1.svg" alt="" />
+              <h2>
+                Ержан Мусин <br />
+                <span>CEO</span>
+              </h2>
+            </div>
+            <div data-aos="fade-down" class="p1">
+              <img src="./imgs/n2.svg" alt="" />
+              <h2>
+                Олжас Укенов <br />
+                <span>CFO</span>
+              </h2>
+            </div>
+            <div data-aos="fade-up" class="p1">
+              <img src="./imgs/1.svg" alt="" />
+              <h2>
+                Ержан Мусин <br />
+                <span>CEO</span>
+              </h2>
+            </div>
+            <div data-aos="fade-down" class="p1">
+              <img src="./imgs/n2.svg" alt="" />
+              <h2>
+                Олжас Укенов<br />
+                <span>CFO</span>
+              </h2>
+            </div>
+            <div data-aos="fade-up" class="p1">
+              <img src="./imgs/1.svg" alt="" />
+              <h2>
+                Ержан Мусин <br />
+                <span>CEO</span>
+              </h2>
+            </div>
+            <div data-aos="fade-down" class="p1">
+              <img src="./imgs/n2.svg" alt="" />
+              <h2>
+                Олжас Укенов <br />
+                <span>CFO</span>
+              </h2>
+            </div>
+          </div>
+          <div class="s3_bottom">
+            <img src="./imgs/Frame 1.svg" alt="" />
+            <div class="s3_info">
+              <h2>SeedBox</h2>
+              <h2>Freedom Finance</h2>
+            </div>
+          </div>
+        </div>
+        <img class="line3" src="./imgs/line_3.svg" alt="" />
+      </section>
+      <section class="s4">
+        <div class="container">
+          <img src="./imgs/s4_title.svg" alt="" />
+          <div class="s4_imgs">
+            <div class="icons">
+              <i class="fa-solid fa-chevron-left left22"></i>
+              <div class="news"></div>
+              <i class="fa-solid fa-chevron-right right22"></i>
+            </div>
+          </div>
+        </div>
+        <div class="nums">
+          <p class="dot">1</p>
+          <p class="dot">2</p>
+          <p class="dot">3</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
